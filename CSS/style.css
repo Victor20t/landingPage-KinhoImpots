@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: #fff; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.redeSocial {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+svg {
+    margin-right: 15px;
+}
+
+nav{
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+}
+
+main {
+    height: 520px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    color: #fafaf9;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #D4AF37;
+    font-size: 1.7em;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+#container-main {
+    position: relative;
+    margin-top: 150px;
+}
+
+.navbar-brand.Logo {
+    margin-top: 25.5px; /* Ajuste conforme necessário */
+}
+
+.container{
+    background-color: #070707;
+}
+
+.bg-dark1{
+    background-color: #070707;
+}
+

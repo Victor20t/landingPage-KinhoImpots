@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+    margin-left: 55px;
+    padding-top: 90px;
+    /*color: aqua;*/
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 55px;
+    margin-top: 15px;;
+    /*color: rebeccapurple;*/
+    font-size: 25px;
+    
+
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    margin-right: 820px;
+    margin-top:75.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: blue;*/
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.redeSocial {
+    display: flex;
+    margin-left: 10px;
+
+  }
+  
+
+svg {
+    width:100px;
+    height: 50px;
+}
+
+nav{
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 45px;
+    width: 980px;
+    height: 100px;
+    width: 770px; 
+  
+}
+
+#container-main{
+    margin-top: 50px;
+    background-color: #ceae451f;
+    background-image: linear-gradient(40deg,#e4a84d2a 40%, #0a0a0a);
+}
+
+.navbar-brand.Logo {
+    margin-top: 25.5px; 
+    height: 30px;
+}
+
+.bg-dark1{
+    background-color: #070707;
+
+}
+
+
+body{
+        background-color: #1b1b1b;
+        background-image: linear-gradient(45deg,#0a0909 45%, #22222269);
+    }
+  
+    .card-title {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+ 
+    .card-title {
+        font-size: 25px;
+        font-weight: bolder;
+        color: rgb(255, 200, 98);
+    }
+    
+    li{
+        font-weight: 550;
+        color: #fff;
+        padding-top: 10px;
+        margin-top: 12px;
+        padding-left: 20px;
+
+    }
+
+#container-grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 175px; 
+    margin-top: 120px;
+    height: 550px;
+    width: 1150px;
+    padding-left: 50px;
+
+}
+
+.cards{
+    background-color: rgb(32, 32, 32);
+    height: 390px;
+    width: 320px;
+    border-radius: 15px;
+    
+    
+}
+
+#container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #container-grid {
+    margin: auto;
+  }
+    
+#container-main-filho{
+    margin-right: 500px; /* Ajustar o valor conforme sua necessidade */
+}
+#container-grid {
+    margin-top: 25px; /* Ajustar o valor conforme sua necessidade */
+  }
