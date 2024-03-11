@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+    
+}
+
+.container {
+    height: 100%; /* Garante que a div container ocupe todo o espaço do body */
+    display: grid;
+    grid-template-rows: auto auto repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #070707;
+    grid-column: 1/ span 3;
+}
+
+section {
+    grid-column: 1/ span 3;
+    min-height: 300px;
+}
+
+article {
+    background-color: brown;
+    border-radius: 4px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+footer {
+    background-color: #070707;
+    grid-column: 1/ span 3;
+    min-height: 100px;
+}
+  footer {
+    grid-row-start: 6;
+    
+  }  
+  
+
+.box {
+    grid-column: 1/ span 3;
+    display: grid;
+    column-gap: 10rem;
+    grid-template-columns: repeat(3, 200px) auto;
+    justify-content: center;
+}
+
+
+/*decoração*/ 
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+    margin-left: 55px;
+    padding-top: 63px;
+    font-weight: 200;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 55px;
+    margin-top: 10px;;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 45px;
+    width: 980px;
+    height: 100px;
+    width: 770px; 
+  
+}
+
+article{
+    background-color: rgb(32, 32, 32);
+    height: 390px;
+    width: 320px;
+    border-radius: 15px;
+}
+
+body{
+    color: #fff;
+    background-color: #1b1b1b;
+    background-image: linear-gradient(45deg,#0a0909 45%, #22222269);
+}
+
+section{
+    margin-top: 50px;
+    min-height: 320px;
+    background-color: #ceae451f;
+    background-image: linear-gradient(40deg,#e4a84d2a 40%, #0a0a0a);
+}
+
+.card-title {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(255, 200, 98);
+}
+
+svg {
+    width:100px;
+    height: 50px;
+}
+
+.redeSocial {
+    display: flex;
+    margin-left: 10px;
+
+  }
+  
+/*@media*/
+
+@media (max-width: 768px) {
+  .box {
+    grid-template-columns: 1fr;
+    padding: auto;
+    row-gap: 3rem;
+
+  }
+
+  article{
+    margin-left: 10vw;
+  }
+}
